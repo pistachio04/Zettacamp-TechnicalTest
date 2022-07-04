@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700&display=swap");
+
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: #f5f5f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  background-color: #ffffff;
+  box-shadow: 0px 4px 8px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  width: 750px;
+  margin-top: 18px;
+  margin-bottom: 18px;
+  padding: 18px;
+  color: #4e4e4e;
+}
+
+.card-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.header-info p strong {
+  color: #22a7e4;
+}
+
+.header-info > p {
+  margin: 6px;
+}
+
+.header-info p:first-child + p {
+  color: #919191;
+  font-size: 14px;
+}
+
+.header-icon {
+  margin-left: auto;
+}
+
+.card-content p {
+  margin-top: 18px;
+  margin-bottom: 32px;
+  color: #555555;
+}
+
+.avatar {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.post-image {
+  width: 100%;
+}
+
+.action-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 18px;
+  margin-left: 0px;
+}
+
+.btn-like {
+  margin-right: 24px;
+}
+
+.card-container {
+  background-color: #f5f5f5;
+  margin-left: -18px;
+  margin-right: -18px;
+  margin-bottom: -18px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.card-comment {
+  /* background-color: #f5f5f5; */
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+.show-comment {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 18px;
+}
+
+.user-comment {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.user-info > p {
+  font-weight: 500;
+  margin-top: auto;
+  margin-bottom: -10px;
+}
+
+.user-info p span {
+  color: #919191;
+}
+
+.comment-action {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: -20px;
+}
+
+.comment-action p {
+  color: #22a7e4;
+  margin-right: 18px;
+}
+
+.container-post {
+  background-color: #0f9de2;
+}
+
+.comment-post {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  /* background-color: red; */
+}
+
+.input-comment {
+  width: 100%;
+  font-family: "Raleway", sans-serif;
+}
+
+button {
+  background-color: #0f9de2;
+  color: #ffffff;
+  border-radius: 5px;
+  height: 32px;
+  width: 120px;
+  border: none;
+  margin-top: 8px;
+  margin-bottom: 8px;
+
+  /* padding: 8 8; */
+}
